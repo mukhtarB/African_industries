@@ -1,0 +1,274 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	font-family: 'Lato', sans-serif;
+}
+html{
+	scroll-behavior:smooth;
+}
+a{
+	text-decoration:none;
+}
+.active2{
+	background-color:indianred!important;
+}
+.btn{
+	border:none;
+}
+.btn:hover{
+	background:indianred;
+}
+hr{
+	border-color:red;
+}
+#totop{
+	width:30px;
+	height:30px;
+	color:red;
+	border-radius:5px;
+	position:absolute;
+	bottom:10px;
+	right:20px;
+	text-align:center;
+	padding-top:2px;
+}
+#socials{
+	list-style-type:none;
+	display:flex;
+	justify-content:flex-end;
+	width:100%;
+	background:linear-gradient(.25turn, red, 80%, blue);
+	padding:3px 10px;
+	margin-bottom:0px;
+	
+}
+#socials li{
+	margin:0px 5px;
+}
+#socials li .fa{
+	color:#000;
+}
+header.container-fluid{
+	padding:0px;
+	margin-bottom:5px;
+}
+#logo{
+	position:relative;
+	top:0px;
+	left:0px;
+	height:56px;
+}
+footer, .jumbotron{
+	background-color:rgba(139, 0, 0, 0.6);
+}
+footer{
+	border-left:10px solid rgba(15, 25, 52, .9);
+	position:relative;
+}
+footer .fa{
+	margin:5px;
+}
+footer ul{
+	list-style-type:none;
+}
+
+.navbar{
+	z-index:200;
+	position:-webkit-sticky;
+	position:sticky;
+	top:0px;
+	background-color: rgba(15, 25, 52, 0.9)!important;
+}
+.nav-link{
+	color:#fff!important;
+}
+center{
+	position:relative;
+	transform:translateY(25px);
+}
+center::after{
+	position:absolute;
+	content:'';
+	right:50%;
+	width:55px;
+	height:2px;
+	background-color:rgba(139, 0, 0, 0.6);
+	border-radius:5px;
+	transform:translate(25px, -10px);
+}
+
+/* -Home- */
+/* #hheader{ */
+	/* height:100vh; */
+	/* background-image:url('../images/b_vision.jpg'); */
+	/* background-size:cover; */
+/* } */
+.hcontent{
+	transform:scale(1.0) translateY(-50px) ;
+}
+#thum1{
+	width:60%;
+	position: absolute;
+	top: 05%;
+	right: 5%;
+	z-index: -1;
+}
+#thum1c{
+	width:60%;
+	border:2px solid red;
+	border-radius:5px;
+	margin-top: 50px;
+	padding:5em;
+	color: #fff;
+	background-color: #555;
+}
+/* about brief */
+#a_img{
+	position:relative;
+}
+#a_img::before{
+	position:absolute;
+	content:'';
+	width:80%;
+	height:90%;
+	background-color:#f9f9f9;
+	border:7px solid red;
+	top:-40px;
+	left:-40px;
+}
+#a_img::after{
+	position:absolute;
+	content:'';
+	width:80%;
+	height:80%;
+	background-color:#f9f9f9;
+	border:7px solid red;
+	top:100px;
+	right:-40px;
+}
+#a_img img{
+	position:relative;
+	z-index:2;
+}
+#rot{
+	margin-top:15px;
+	font-size:2em;
+	color:red;
+	display:block;
+}
+/* -About- */
+#aheader{
+	height:350px;
+	background-image:url('../images/b_vision.jpg');
+	background-size:cover;
+}
+/* -ch_msg- */
+#ch-header{
+	height:350px;
+	background-image:url('../images/b_ch.jpg');
+	background-size:cover;
+}
+/* -md_msg- */
+#md-header{
+	height:350px;
+	background-image:url('../images/b_md.jpg');
+	background-size:cover;
+}
+/* -Careers- */
+#ccheader{
+	height:350px;
+	background-image:url('../images/b_career.jpg');
+	background-size:cover;
+}
+/* -CSR- */
+#csrheader{
+	height:350px;
+	background-image:url('../images/csr-activities.jpg');
+	background-size:cover;
+}
+/* -Contacts- */
+#cheader{
+	height:350px;
+	background-image:url('../images/b_forms.jpg');
+	background-size:cover;
+}
+/* -News- */
+#nheader{
+	height:350px;
+	background-image:url('../images/b_news.jpg');
+	background-size:cover;
+}
+/* -Products- */
+#pheader{
+	height:350px;
+	background-image:url('../images/b_products.jpg');
+	background-size:cover;
+}
+.img-div{
+	padding:5px;
+	position:relative;
+	overflow:hidden;
+}
+.img{
+	transition:transform 2s;
+}
+.img-div .fa-caret-up{
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	background-color:indianred;
+	width:20px;
+	height:20px;
+	padding-left:5px;
+	border-radius:50%;
+}
+.img-names{
+	position:absolute;
+	bottom:5px;
+	width:96.5%;
+	height:0%;
+	color:white;
+	background-color:rgba(255, 106, 106, 0.5);
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	transition: height 1s;
+}
+.img-div:hover .img-names{
+	height:94%;
+}
+@media screen and (max-width: 991px){
+	#hcontact{
+		height:380px;
+	}
+	#thum1c{
+		padding:15px 1.5em;
+	}
+}
+@media screen and (max-width: 768px){
+	#thum1{
+		width: 100%;
+		position: static;
+		
+	}
+	#thum1c{
+		width: 100%;
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 425px){
+	#hcontact{
+		height:380px;
+	}
+	.img-names{
+		width:100%;
+	}
+	.hcontent{
+		transform:scale(0.8) translateY(-50px) ;
+	}
+	#rot{
+		margin-top:50px;
+	}
+}
+

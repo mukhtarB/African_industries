@@ -1,0 +1,127 @@
+*{margin:0; padding:0;}
+/* Header */
+
+body {
+	font-family: 'Baskervville', serif;
+}
+
+.logo{
+	background-color:#ffffff;
+	padding:5px 40px;
+}
+.bar{background-color:white;
+     position: relative;
+ }
+ .bar ul li a {color:red;}
+ .bar ul li a:hover{
+	 color:white;
+	 background-color:red;
+ }
+#hideMenu {display:none;}
+.note{
+	color:white;
+	position:absolute;
+	top:50px;
+	left:50px;
+}
+.distinct{border-left:5px solid red; color:red; padding:10px;}
+.distinct2{font-size:1.2em;}
+.box1{margin:10px; border:10px solid red; width:350px; height:450px; position:relative; bottom:130px; left:20px;}
+.box2{margin:40px; border-top:10px solid red; border-right:10px solid red; width:350px; height:500px; position:relative; z-index:1; bottom:500px; right:-200px;}
+.emage1{position:relative; z-index:3; bottom:1150px; right:-60px; margin:30px;}
+.miniContent{width:1220px; height:550px;}
+.year{position:relative; top:-1160px; right:-345px; color:blue; font-size:3em;}
+.bold{background-color:red; color:white;}
+.afri{
+ color: red;
+ font-weight: bold;
+}
+.underScore{border-bottom:3px solid red; width:30px; position:relative; bottom:4px; right:-20px; }
+.miniContent2{position:relative; bottom:100px; margin:10px;}
+
+.blue {
+ color: blue;
+}
+.more{background-color:red; color:white; border:0; height:40px; width:100px; border-radius:5px;}
+.more:hover{background-color:grey; color:white;}
+
+/* products */
+.midiContent{background-image:url("science-in-hd-i4ABHj811N0-unsplash.jpg");   background-repeat:no-repeat; margin:20px; background-attachment:fixed; background-size:cover; height:auto; }
+.productContainer{
+	background-color:rgba(0, 0, 204, 0.2);
+}
+.productHeader {
+	text-align:center; color:white;
+}
+.productHeader h2{margin-top:300px; padding:20px; }
+.productHeader p{margin:10px; padding:20px; font-size:1.5em; }
+.productContainer ul{margin:20px; }
+.productContainer ul li{
+	padding:10px; margin:30px; list-style-type:none;
+}
+.productContainer ul li img{ width:300px; height:250px; border-radius:15px;}
+
+
+/* products */
+.service-sec{background-image:url("science-in-hd-i4ABHj811N0-unsplash.jpg");   background-repeat:no-repeat; margin:20px; background-attachment:fixed; background-size:cover; height:auto;}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+.zoom {
+    transition: transform .2s;
+}
+
+/* VISION MISSION VALUE */
+.containerVMV {margin:100px 70px; }
+
+/* social responsibility */
+.socialRes{padding:20px; margin:50px 0; height:auto; }
+}
+
+
+.clear {
+	margin-top: 40px;
+}
+
+.boom {
+ font-size: 25px;
+ /* text-indent: 20px; */
+ color: red;
+}
+
+.suit {
+	background: blue;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:220px; top:0px;}
+  75%  {background-color:green; left:240px; top:0px;}
+  100% {background-color:red; left:250px; top:0px;}
+}
+
+/* The element to apply the animation to */
+.underScore {
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+   animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@media screen and (max-width: 425px){
+	.note{
+		left:20px;
+	}
+}
+
+
+
+
+
+
+/* Note: do the overlay, link the email pic to a nice site, */
